@@ -1,0 +1,29 @@
+﻿@model IEnumerable<szymon.Models.Product>
+
+<h1>Lista produktów</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Cena</th>
+            <th>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>
+                    <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <button type="submit" class="btn btn-primary">Dodaj do koszyka</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

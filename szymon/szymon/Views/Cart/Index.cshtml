@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ShoppingCartItem>
+
+<h1>Your Shopping Cart</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <form asp-controller="Cart" asp-action="IncreaseQuantity" method="post">
+                        <input type="hidden" name="cartItemId" value="@item.Id" />
+                        <button type="submit" class="btn btn-primary">+</button>
+                    </form>
+                </td>
+                <td>
+                    <form asp-controller="Cart" asp-action="DecreaseQuantity" method="post">
+                        <input type="hidden" name="cartItemId" value="@item.Id" />
+                        <button type="submit" class="btn btn-primary">-</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form asp-controller="Order" asp-action="PlaceOrder" method="post">
+    <button type="submit" class="btn btn-success">Place Order</button>
+</form>
