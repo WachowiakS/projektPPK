@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("szymon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a4fc7fa8aed392bca2b5513a46377fe02f6e815")]
 [assembly: System.Reflection.AssemblyProductAttribute("szymon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("szymon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

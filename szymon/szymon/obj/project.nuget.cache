@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNvonEKKzQa0e3MZdN3EgA/bKD3GL28J+kOw+/UBWHT90/EBNcvGG5aQoFVducGhiKxCTx1PqwE7UYgw5fFT6g==",
+  "dgSpecHash": "v/5/ZhZojtyws51ZIi2Wif03V4n/3vuWMXEMpFaW8NTBFDMC6D4Sp4yeRAHUQNGSkHidia2T2Rr0bwx5T4vZ5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szyme\\OneDrive\\Pulpit\\szymon\\szymon\\szymon.csproj",
+  "projectFilePath": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\szymon\\szymon\\szymon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szyme\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\szyme\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
