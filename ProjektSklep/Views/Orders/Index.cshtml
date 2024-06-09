@@ -1,0 +1,60 @@
+@model List<Cart>
+
+@{
+    ViewBag.Title = "Zamówienia";
+    Layout = "_Layout";
+}
+
+<h2 class="text-center my-4">Twoje zamówienia</h2>
+
+@if (Model.Count > 0)
+{
+    <div class="container">
+        @foreach (var cart in Model)
+        {
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h5 class="mb-0">Zamówienie nr. @cart.Id</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    @foreach (var product in cart.Products)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="product-img">
+                                <img src="@product.ImageUrl" alt="@product.Name" class="img-fluid rounded" />
+                            </div>
+                            <div class="product-details flex-fill ml-3">
+                                <h6 class="mb-0">@product.Name</h6>
+                                <p class="mb-0">@product.Price zł</p>
+                            </div>
+                        </li>
+                    }
+                    <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
+                        <span>Suma:</span>
+                        <strong>@cart.Sum zł</strong>
+                    </li>
+                </ul>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h2>Brak zamówień</h2>
+    </div>
+}
+
+<style>
+    .card-header h5 {
+        margin-bottom: 0;
+    }
+    .product-img img {
+        max-width: 80px;
+    }
+    .product-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+</style>

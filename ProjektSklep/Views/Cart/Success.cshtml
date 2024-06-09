@@ -1,0 +1,54 @@
+@model Cart
+
+@{
+ViewBag.Title = "Zamówienie";
+Layout = "_Layout";
+}
+
+<div class="container text-center my-5">
+    <h2 class="mb-4">Zamówienie zostało przyjęte, dziękujemy!</h2>
+    <h4 class="mb-4">Zamówione zostały produkty:</h4>
+
+    @if (@Model.Products != null && @Model.Products.Count > 0)
+    {
+    <div class="row">
+        @foreach (var product in @Model.Products)
+        {
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">ID produktu: @product.Id</p>
+                    <p class="card-text">Cena: @product.Price zł</p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+    <div class="card mt-4">
+        <div class="card-body text-center">
+            <h5 class="card-title">Suma</h5>
+            <p class="card-text">@Model.Sum zł</p>
+        </div>
+    </div>
+    }
+    else
+    {
+    <p class="text-muted">Brak zamówionych produktów.</p>
+    }
+</div>
+
+<style scoped>
+    .card-img-top {
+        max-height: 200px;
+        object-fit: cover;
+    }
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .card-text {
+        font-size: 1rem;
+    }
+</style>
