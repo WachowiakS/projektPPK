@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\migrations\\20240601134119_addedoldprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\migrations\\20240601134119_addedoldprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\migrations\\20240601133604_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\migrations\\20240601133604_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|c:\\users\\szyme\\onedrive\\pulpit\\projektppk\\projektsklep\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE73587-6D32-4F19-9876-F00A8114514F}|ProjektSklep\\ProjektSklep.csproj|solutionrelative:projektsklep\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Program.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Program.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Program.cs",
+              "RelativeToolTip": "ProjektSklep\\Program.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:26:08.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Product.cs",
+              "RelativeToolTip": "ProjektSklep\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:25:57.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Order.cs",
+              "RelativeToolTip": "ProjektSklep\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:25:49.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProjektSklep\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:25:38.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Models\\Cart.cs",
+              "RelativeToolTip": "ProjektSklep\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:25:14.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProjektSklep\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:21:29.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240601134119_AddedOldPrice.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\20240601134119_AddedOldPrice.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Migrations\\20240601134119_AddedOldPrice.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\20240601134119_AddedOldPrice.cs",
+              "RelativeToolTip": "ProjektSklep\\Migrations\\20240601134119_AddedOldPrice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:21:06.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240601133604_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\20240601133604_InitialMigration.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Migrations\\20240601133604_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Migrations\\20240601133604_InitialMigration.cs",
+              "RelativeToolTip": "ProjektSklep\\Migrations\\20240601133604_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:18:50.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProjektSklep\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:08:35.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ProjektSklep\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T23:48:40.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjektSklep\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T23:47:39.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ProjektSklep\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\szyme\\OneDrive\\Pulpit\\projektPPK\\ProjektSklep\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ProjektSklep\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T23:45:03.375Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
