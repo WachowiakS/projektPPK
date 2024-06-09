@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Diagnostics; 
 using Microsoft.AspNetCore.Mvc; 
 using ProjektSklep.Data; 
@@ -28,6 +29,8 @@ public class HomeController : Controller // Definicja kontrolera HomeController,
     {
         AddProductIfNotExists(new Product // Dodanie produktu do bazy, jeœli nie istnieje (Apple iPhone 15 128GB Black).
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ProjektSklep.Data;
@@ -56,6 +59,9 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         AddProductIfNotExists(new Product
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         {
             Id = 1,
@@ -65,8 +71,13 @@ public class HomeController : Controller
             Count = 1
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         AddProductIfNotExists(new Product // Dodanie produktu do bazy, jeœli nie istnieje (Apple iPhone 15 Pro 128GB Black Titanium).
+=======
+        
+        AddProductIfNotExists(new Product
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
         
         AddProductIfNotExists(new Product
@@ -80,8 +91,13 @@ public class HomeController : Controller
             Count = 1
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         AddProductIfNotExists(new Product // Dodanie produktu do bazy, jeœli nie istnieje (Samsung Galaxy Z Fold5 5G 1TB).
+=======
+        
+        AddProductIfNotExists(new Product
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
         
         AddProductIfNotExists(new Product
@@ -94,8 +110,13 @@ public class HomeController : Controller
             Count = 1
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         AddProductIfNotExists(new Product // Dodanie produktu do bazy, jeœli nie istnieje (Samsung Galaxy S24+ 256GB).
+=======
+        
+        AddProductIfNotExists(new Product
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
         
         AddProductIfNotExists(new Product
@@ -107,6 +128,7 @@ public class HomeController : Controller
             Price = 4499.0,
             Count = 1
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         return View(_context.Products.ToList()); // Zwrócenie widoku z list¹ produktów.
@@ -124,6 +146,8 @@ public class HomeController : Controller
     }
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         
         return View(_context.Products.ToList());
     }
@@ -138,5 +162,9 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

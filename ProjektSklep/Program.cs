@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore; 
 using ProjektSklep.Data; 
 
@@ -33,6 +34,8 @@ if (app.Environment.IsDevelopment())
 {
     // U¿ycie punktu koñcowego migracji w trybie deweloperskim.
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 using Microsoft.EntityFrameworkCore;
 using ProjektSklep.Data;
 
@@ -54,11 +57,15 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
     app.UseMigrationsEndPoint();
 }
 else
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     // U¿ycie obs³ugi b³êdów dla b³êdu na stronie g³ównej.
     app.UseExceptionHandler("/Home/Error");
@@ -89,6 +96,8 @@ app.MapRazorPages();
 
 
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
@@ -106,5 +115,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 app.Run();

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Microsoft.EntityFrameworkCore.Migrations; 
 
 #nullable disable // Wyłącza obsługę typów dopuszczających wartość null, co jest wymagane dla migracji.
@@ -26,6 +27,8 @@ namespace ProjektSklep.Migrations // Przestrzeń nazw dla migracji w projekcie.
                 name: "OldPrice", // Nazwa usuwanej kolumny.
                 table: "Products"); // Tabela, z której usuwana jest kolumna.
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -52,6 +55,9 @@ namespace ProjektSklep.Migrations
             migrationBuilder.DropColumn(
                 name: "OldPrice",
                 table: "Products");
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         }
     }

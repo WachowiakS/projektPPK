@@ -1,6 +1,7 @@
 namespace ProjektSklep.Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Klasa reprezentuj¹ca model b³êdu wykorzystywany w widokach.
 public class ErrorViewModel
 {
@@ -12,10 +13,16 @@ public class ErrorViewModel
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 public class ErrorViewModel
 {
     public string? RequestId { get; set; }
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

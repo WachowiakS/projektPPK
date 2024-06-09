@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System; 
 using Microsoft.EntityFrameworkCore.Migrations; 
 
@@ -198,6 +199,8 @@ namespace ProjektSklep.Migrations // Przestrzeń nazw dla migracji w projekcie.
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId", // Tworzenie indeksu dla kolumny RoleId w tabeli AspNetRoleClaims.
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
@@ -396,13 +399,20 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
                 table: "AspNetRoleClaims",
                 column: "RoleId");
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "RoleNameIndex", // Tworzenie unikalnego indeksu dla kolumny NormalizedName w tabeli AspNetRoles.
+=======
+                name: "RoleNameIndex",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "RoleNameIndex",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -412,7 +422,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "IX_AspNetUserClaims_UserId", // Tworzenie indeksu dla kolumny UserId w tabeli AspNetUserClaims.
+=======
+                name: "IX_AspNetUserClaims_UserId",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "IX_AspNetUserClaims_UserId",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -421,7 +435,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "IX_AspNetUserLogins_UserId", // Tworzenie indeksu dla kolumny UserId w tabeli AspNetUserLogins.
+=======
+                name: "IX_AspNetUserLogins_UserId",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "IX_AspNetUserLogins_UserId",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -430,7 +448,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "IX_AspNetUserRoles_RoleId", // Tworzenie indeksu dla kolumny RoleId w tabeli AspNetUserRoles.
+=======
+                name: "IX_AspNetUserRoles_RoleId",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "IX_AspNetUserRoles_RoleId",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -439,7 +461,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "EmailIndex", // Tworzenie indeksu dla kolumny NormalizedEmail w tabeli AspNetUsers.
+=======
+                name: "EmailIndex",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "EmailIndex",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -448,7 +474,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "UserNameIndex", // Tworzenie unikalnego indeksu dla kolumny NormalizedUserName w tabeli AspNetUsers.
+=======
+                name: "UserNameIndex",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "UserNameIndex",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -458,7 +488,11 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.CreateIndex(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "IX_Products_CartId", // Tworzenie indeksu dla kolumny CartId w tabeli Products.
+=======
+                name: "IX_Products_CartId",
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 =======
                 name: "IX_Products_CartId",
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
@@ -467,6 +501,7 @@ namespace ProjektSklep.Migrations
         }
 
         /// <inheritdoc />
+<<<<<<< HEAD
 <<<<<<< HEAD
         protected override void Down(MigrationBuilder migrationBuilder) // Metoda definiująca zmiany do zastosowania podczas migracji w dół (cofanie migracji).
         {
@@ -497,6 +532,8 @@ namespace ProjektSklep.Migrations
             migrationBuilder.DropTable(
                 name: "Carts"); // Usuwanie tabeli Carts.
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
@@ -525,6 +562,9 @@ namespace ProjektSklep.Migrations
 
             migrationBuilder.DropTable(
                 name: "Carts");
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         }
     }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore; 
 using Microsoft.EntityFrameworkCore; 
 using ProjektSklep.Models; 
@@ -16,6 +17,8 @@ public class ApplicationDbContext : IdentityDbContext // Definicja kontekstu baz
     public DbSet<Product> Products { get; set; } // Definicja DbSet dla produktów, umożliwiająca pracę z tabelą Products w bazie danych.
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ProjektSklep.Models;
@@ -31,5 +34,9 @@ public class ApplicationDbContext : IdentityDbContext
     
     public DbSet<Cart> Carts { get; set; }
     public DbSet<Product> Products { get; set; }
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

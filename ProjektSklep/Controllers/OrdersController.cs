@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Security.Claims; 
 using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc; 
@@ -44,6 +45,8 @@ public class OrdersController : Controller // Definicja kontrolera OrdersControl
     }
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 ﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -87,5 +90,9 @@ public class OrdersController : Controller
 
         return View(carts);
     }
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

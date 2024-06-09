@@ -1,6 +1,7 @@
 ﻿namespace ProjektSklep.Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Klasa reprezentująca koszyk zakupowy w aplikacji.
 public class Cart
 {
@@ -24,6 +25,8 @@ public class Cart
     public double Sum { get; set; }
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 public class Cart
 {
     public int Id { get; set; }
@@ -32,5 +35,9 @@ public class Cart
     public string? UserId { get; set; }
     public bool IsOrdered { get; set; } = false;
     public double Sum { get; set; }
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

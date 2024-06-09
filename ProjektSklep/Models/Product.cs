@@ -1,6 +1,7 @@
 ﻿namespace ProjektSklep.Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Klasa reprezentująca produkt w sklepie.
 public class Product
 {
@@ -23,6 +24,8 @@ public class Product
     public int Count { get; set; } = 1;
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 public class Product
 {
     public int Id { get; set; }
@@ -31,5 +34,9 @@ public class Product
     public double Price { get; set; }
     public double OldPrice { get; set; }
     public int Count { get; set; } = 1;
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876

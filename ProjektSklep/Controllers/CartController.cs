@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Security.Claims; 
 using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc; 
@@ -98,6 +99,8 @@ public class CartController : Controller // Definicja kontrolera CartController,
 
         if (index != -1) // Jeśli produkt istnieje w koszyku, zmniejszenie jego ilości.
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
 ﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -196,11 +199,15 @@ public class CartController : Controller
         var index = cart.Products.FindIndex(p => p.Equals(product));
 
         if (index != -1)
+<<<<<<< HEAD
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         {
             cart.Products[index].Count--;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (cart.Products[index].Count == 0) // Jeśli ilość produktu wynosi 0, usunięcie go z koszyka.
         {
@@ -257,6 +264,8 @@ public class CartController : Controller
     }
 }
 =======
+=======
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
         if (cart.Products[index].Count == 0)
         {
             cart.Products.RemoveAt(index);
@@ -310,5 +319,9 @@ public class CartController : Controller
 
         return View("Success", cart);
     }
+<<<<<<< HEAD
+}
+>>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
+=======
 }
 >>>>>>> 32d131835f28a01e93bea9a17374fbda08522876
